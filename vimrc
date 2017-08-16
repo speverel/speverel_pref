@@ -54,7 +54,7 @@ nnoremap c} vip><ESC>O{<esc>)o}<esc>
 " Insert Mode
 inoremap jk <ESC>
 inoremap jh <C-n>
-inoremap <C-u> <ESC>lm'viwU`'
+inoremap <C-u> <ESC>m'viwU`'a
 " Visual Mode
 vnoremap . :norm.<CR>
 vnoremap <tab> %
