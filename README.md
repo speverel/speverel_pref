@@ -1,1 +1,1 @@
-# speverel_pref
+Preferences for various programs; vim, zsh etc.
