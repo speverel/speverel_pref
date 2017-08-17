@@ -47,10 +47,17 @@ nnoremap <leader>V :vsplit $MYVIMRC<cr>
 nnoremap <leader>sv :source $MYVIMRC<cr>
 nnoremap Y y$
 nnoremap c" viw<ESC>a"<esc>bi"<esc>lel
+nnoremap C" viW<ESC>a"<esc>Bi"<esc>lEl
+nnoremap c' viw<ESC>a'<esc>bi'<esc>lel
+nnoremap C' viW<ESC>a'<esc>Bi'<esc>lEl
 nnoremap c( viw<ESC>a)<esc>bi(<esc>lel
+nnoremap C( viW<ESC>a)<esc>Bi(<esc>lEl
 nnoremap c[ viw<ESC>a]<esc>bi[<esc>lel
+nnoremap C[ viW<ESC>a]<esc>Bi[<esc>lEl
 nnoremap c{ viw<ESC>a}<esc>bi{<esc>lel
+nnoremap C{ viW<ESC>a}<esc>Bi{<esc>lEl
 nnoremap c} vip><ESC>O{<esc>)o}<esc>
+nnoremap cp{ mmvi{>`]o}<esc>v><esc>`'O{<esc>`m
 " Insert Mode
 inoremap jk <ESC>
 inoremap jh <C-n>
